@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnostic Output - HR Intelligence System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { background-color: #f8fafc; color: #334155; font-family: 'Segoe UI', sans-serif; }
+        .card { border: none; border-radius: 16px; box-shadow: 0 4px 20px rgba(148, 163, 184, 0.06); margin-bottom: 24px; background-color: #ffffff; }
+        
+        .btn-back { background-color: #f1f5f9; color: #64748b; font-weight: 600; border-radius: 10px; text-decoration: none; padding: 12px 28px; display: inline-block; transition: all 0.2s; }
+        .btn-back:hover { background-color: #e2e8f0; color: #475569; }
+        .btn-download { background: linear-gradient(135deg, #34d399 0%, #059669 100%); color: #fff; font-weight: 600; border-radius: 10px; text-decoration: none; padding: 12px 28px; border:none; display: inline-block; box-shadow: 0 4px 12px rgba(52, 211, 153, 0.2); }
+        
+        /* Light/Minimalist Navigation Design */
+        .navbar { background-color: #ffffff !important; border-bottom: 1px solid #e2e8f0; }
+        .navbar-brand { color: #1e293b !important; font-weight: 700; font-size: 1.1rem; letter-spacing: 0.5px; }
+
+        /* Elegant Light Pastel Gauges */
+        .gauge-wrapper { position: relative; width: 220px; height: 110px; margin: 0 auto; overflow: hidden; }
+        .gauge-body { position: absolute; top: 0; left: 0; width: 100%; height: 200%; border-radius: 50%; box-shadow: inset 0 0 0 24px #f1f5f9; }
+        .gauge-fill { position: absolute; top: 0; left: 0; width: 100%; height: 200%; border-radius: 50%; box-shadow: inset 0 0 0 24px var(--gauge-color, #cbd5e1); transform-origin: center top; transform: rotate(0.25turn); transition: transform 1.5s ease-out; }
+        .gauge-val { font-size: 2.5rem; font-weight: 800; text-align: center; margin-top: 15px; color: #1e293b; line-height: 1; }
+        
+        /* Light/Pastel Tone Risk Indicator Triggers */
+        .trigger-badge { background-color: #fef2f2; color: #ef4444; border: 1px solid #fee2e2; padding: 8px 16px; border-radius: 20px; font-size: 0.85rem; display: inline-block; margin-right: 6px; margin-bottom: 10px; font-weight: 500; }
+        
+        /* Soft custom text color mapping overrides for standard bootstrap bootstrap classes */
+        .text-success-light { color: #10b981 !important; }
+        .text-warning-light { color: #f59e0b !important; }
+        .text-danger-light { color: #ef4444 !important; }
+
+        /* Light subtle alert banner frames */
+        .alert-soft-success { background-color: #f0fdf4; border: 1px solid #dcfce7; color: #166534; border-radius: 12px; }
+        .alert-soft-warning { background-color: #fffbeb; border: 1px solid #fef3c7; color: #92400e; border-radius: 12px; }
+        .alert-soft-danger { background-color: #fef2f2; border: 1px solid #fee2e2; color: #991b1b; border-radius: 12px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar shadow-sm py-3">
+        <div class="container"><span class="navbar-brand mb-0 h1">🔮 HR ATTRITION INTELLIGENCE SYSTEM</span></div>
+    </nav>
+
+    <div class="container my-5" style="max-width: 1000px;">
+        <!-- 1. INDIVIDUAL PROFILE SCREEN VIEW -->
+        {% if mode == 'single' %}
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <div class="card p-5 mb-4">
+                    <h6 class="text-uppercase tracking-wider font-weight-bold text-muted small mb-4" style="letter-spacing: 1px;">Diagnostic Assessment Result</h6>
+                    <div class="gauge-wrapper">
+                        <div class="gauge-body"></div>
+                        <div class="gauge-fill" id="riskGaugeFill"></div>
+                    </div>
+                    <div class="gauge-val {% if alert_class == 'success' %}text-success-light{% elif alert_class == 'warning' %}text-warning-light{% else %}text-danger-light{% endif %}">{{ probability }}%</div>
+                    <h3 class="fw-bold mt-2 mb-4" style="color: #1e293b;">{{ risk_status }}</h3>
+                    
+                    <div class="alert alert-soft-{{alert_class}} d-inline-block px-4 mx-auto mb-0 shadow-sm">
+                        AI analytical evaluation indicates a <strong>{{ probability }}%</strong> likelihood of near-term employee voluntary turnover.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card p-4 h-100">
+                            <h5 class="fw-bold border-bottom pb-2 mb-3" style="color: #334155;">🔍 Highlighted Risk Drivers</h5>
+                            <div class="pt-1">
+                                {% if overtime == 'Yes' %}<span class="trigger-badge">⚠️ Structural Overtime Workload</span>{% endif %}
+                                {% if job_satisfaction <= 2 %}<span class="trigger-badge">📉 Low Engagement Metrics</span>{% endif %}
+                                {% if work_life <= 2 %}<span class="trigger-badge">⚖️ Poor Work-Life Alignment</span>{% endif %}
+                                {% if overtime == 'No' and job_satisfaction > 2 and work_life > 2 %}
+                                    <p class="text-muted small">No high-risk environmental baseline triggers detected for this specific worker profile.</p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card p-4 h-100">
+                            <h5 class="fw-bold border-bottom pb-2 mb-3" style="color: #334155;">💡 Prescriptive Action Plan</h5>
+                            <ul class="text-muted small ps-3" style="font-size: 0.9rem; line-height: 1.6;">
+                                {% if alert_class == 'danger' %}
+                                    <li class="mb-2 text-danger"><strong>Schedule immediate retention Stay-Interview within 48 hours.</strong></li>
+                                    <li class="mb-2">Conduct compensation review against modern local role baseline indexes.</li>
+                                    <li class="mb-2">Introduce immediate workload limitations to mitigate sudden career burnout.</li>
+                                {% elif alert_class == 'warning' %}
+                                    <li class="mb-2">Incorporate active alignment check-ins during upcoming routine 1-on-1s.</li>
+                                    <li class="mb-2">Examine internal opportunities for upskilling and future horizontal career moves.</li>
+                                {% else %}
+                                    <li class="mb-2">Maintain existing management pipeline structures and performance cadences.</li>
+                                    <li class="mb-2">Consider indexing this employee as a candidate for career coaching mentorship roles.</li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- 2. BULK ASSESSMENT DASHBOARD SCREEN VIEW -->
+        {% if mode == 'bulk' %}
+        <div class="row mb-4 align-items-center">
+            <div class="col">
+                <h3 class="fw-bold m-0" style="color: #1e293b;">📊 Batch Assessment Diagnostics Dashboard</h3>
+                <p class="text-muted m-0">Aggregated analytics for <strong>{{ total }}</strong> records processed.</p>
+            </div>
+            <div class="col text-end">
+                <a href="/export" class="btn btn-download shadow-sm">📥 Export Complete Data Set (.csv)</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5 mb-4">
+                <div class="card p-4">
+                    <h5 class="fw-bold mb-3 text-center" style="color: #334155;">Workforce Attrition Risk Distribution</h5>
+                    <div style="height: 280px; position: relative;">
+                        <canvas id="bulkChartContainer"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 mb-4">
+                <div class="card p-4">
+                    <h5 class="fw-bold mb-3" style="color: #334155;">📋 Risk Assessment Manifest (Top Preview Rows)</h5>
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle small">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Age</th>
+                                    <th>Department</th>
+                                    <th>Income</th>
+                                    <th>OverTime</th>
+                                    <th>Risk %</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for item in records %}
+                                <tr>
+                                    <td>{{ item.Age }}</td>
+                                    <td>{{ item.Department }}</td>
+                                    <td>${{ item.MonthlyIncome }}</td>
+                                    <td>{{ item.OverTime }}</td>
+                                    <td class="fw-bold" style="color: #1e293b;">{{ item.Attrition_Risk_Percentage }}%</td>
+                                    <td>
+                                        <span class="badge {% if item.Risk_Category == 'High Risk' %}bg-danger-subtle text-danger{% elif item.Risk_Category == 'Moderate Risk' %}bg-warning-subtle text-warning-emphasis{% else %}bg-success-subtle text-success{% endif %} p-2 border">
+                                            {{ item.Risk_Category }}
+                                        </span>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="text-center mt-4">
+            <a href="/" class="btn-back shadow-sm">⬅️ Evaluate Next Employee Profile</a>
+        </div>
+    </div>
+
+    <script>
+        const viewMode = "{{ mode }}";
+
+        if (viewMode === 'single') {
+            document.addEventListener("DOMContentLoaded", function() {
+                const fillElement = document.getElementById("riskGaugeFill");
+                const score = parseFloat("{{ probability }}") || 0;
+                
+                // Soft elegant Pastel colors for individual gauge tracking
+                let gaugeColor = "#a7f3d0"; // Soft Light Sage Green
+                if (score >= 30 && score < 70) gaugeColor = "#fef3c7"; // Soft Light Amber/Yellow
+                if (score >= 70) gaugeColor = "#fee2e2"; // Soft Light Pinkish Red
+                
+                if (fillElement) {
+                    fillElement.style.setProperty('--gauge-color', gaugeColor);
+                    const rotationDegree = 0.25 + (score / 100) * 0.5;
+                    setTimeout(() => {
+                        fillElement.style.transform = `rotate(${rotationDegree}turn)`;
+                    }, 200);
+                }
+            });
+        }
+
+        if (viewMode === 'bulk') {
+            document.addEventListener("DOMContentLoaded", function() {
+                const canvas = document.getElementById('bulkChartContainer');
+                if (canvas) {
+                    const ctx = canvas.getContext('2d');
+                    new Chart(ctx, {
+                        type: 'doughnut',
+                        data: {
+                            labels: ['Stable Workforce (Low Risk)', 'Monitor Group (Moderate Risk)', 'Action Trigger (High Risk)'],
+                            datasets: [{
+                                data: [parseInt("{{ low }}") || 0, parseInt("{{ mod }}") || 0, parseInt("{{ high }}") || 0],
+                                // Coordinating soft pastel colors for dashboard doughnut chart charts
+                                backgroundColor: ['#a7f3d0', '#fef3c7', '#fee2e2'],
+                                borderColor: ['#34d399', '#fbbf24', '#f87171'],
+                                borderWidth: 1.5,
+                                hoverOffset: 4
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: { position: 'bottom', labels: { boxWidth: 12, padding: 15, color: '#64748b' } }
+                            }
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+</body>
+</html>
