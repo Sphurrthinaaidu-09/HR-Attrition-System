@@ -2,7 +2,7 @@
 
 An end-to-end HR Analytics and Machine Learning application designed to identify employee attrition risks before they occur. The system transforms raw workforce data into actionable business intelligence, enabling HR teams to proactively improve employee retention and workforce stability.
 
-Live Demo: `[Insert Your Hugging Face Space Link Here]`
+Live Demo: `[https://sphurrthi09-hr-attrition-system.hf.space]`
 
 ---
 
@@ -291,7 +291,7 @@ Through this project, I gained and applied practical experience in:
 
 ## 👨‍💻 Author
 
-**Sphurthhi Pudupakam** *Aspiring Data Analyst | Machine Learning Enthusiast* - **GitHub:** [https://github.com/Sphurrthinaaidu-09](https://github.com/Sphurrthinaaidu-09)  
-- **LinkedIn:** *(Add LinkedIn Profile Link Here)* ---
+**Sphurthhi Pudupakam** *Aspiring Data Analyst | Machine Learning Enthusiast* 
+- **GitHub:** [https://github.com/Sphurrthinaaidu-09] ---
 
 ⭐ If you found this project useful, consider giving the repository a star!
