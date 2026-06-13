@@ -241,9 +241,9 @@ The model identified several significant attrition drivers:
 
 <img width="1763" height="1325" alt="Screenshot_13-6-2026_161754_sphurrthi09-hr-attrition-system hf space" src="https://github.com/user-attachments/assets/4a4db3d6-d75c-4f7e-987d-82eab7e7f50e" />
 
+<img width="1763" height="844" alt="Screenshot_13-6-2026_161850_sphurrthi09-hr-attrition-system hf space" src="https://github.com/user-attachments/assets/33fd88af-97c8-4bc4-bde3-a4aef38c2ef9" />
 
-
-
+<img width="1763" height="1661" alt="Screenshot_13-6-2026_161923_sphurrthi09-hr-attrition-system hf space" src="https://github.com/user-attachments/assets/ea0efd79-cca6-43a9-9a7c-f764ce938383" />
 
 ---
 
