@@ -1,4 +1,4 @@
-# 📊 HR Attrition Intelligence System
+# 📊 Employee Attrition Risk Prediction & Workforce Analytics System
 
 ## 🚀 Project Overview
 
@@ -197,7 +197,6 @@ These insights help HR teams focus on retention strategies.
 
 ## 📁 Project Structure
 
-```text
 HR_Attrition_Intelligence_System/
 ├── dataset/
 ├── eda.py
