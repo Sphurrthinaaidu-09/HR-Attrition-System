@@ -239,13 +239,11 @@ The model identified several significant attrition drivers:
 
 ## 📸 Application Screenshots
 
-*Add screenshots for:*
-1. Home Dashboard
-2. Individual Employee Assessment
-3. Risk Prediction Report
-4. Bulk Workforce Analysis
-5. Executive Dashboard
-6. Risk Distribution Charts
+<img width="1763" height="1325" alt="Screenshot_13-6-2026_161754_sphurrthi09-hr-attrition-system hf space" src="https://github.com/user-attachments/assets/4a4db3d6-d75c-4f7e-987d-82eab7e7f50e" />
+
+
+
+
 
 ---
 
@@ -292,6 +290,8 @@ Through this project, I gained and applied practical experience in:
 ## 👨‍💻 Author
 
 **Sphurthhi Pudupakam** *Aspiring Data Analyst | Machine Learning Enthusiast* 
-- **GitHub:** [https://github.com/Sphurrthinaaidu-09] ---
+- **GitHub:** [https://github.com/Sphurrthinaaidu-09]
+  
+---
 
 ⭐ If you found this project useful, consider giving the repository a star!
