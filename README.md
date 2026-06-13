@@ -2,7 +2,7 @@
 
 An end-to-end HR Analytics and Machine Learning application designed to identify employee attrition risks before they occur. The system transforms raw workforce data into actionable business intelligence, enabling HR teams to proactively improve employee retention and workforce stability.
 
-Live Demo: `https://sphurrthi09-hr-attrition-system.hf.space`
+Live Demo: https://sphurrthi09-hr-attrition-system.hf.space
 
 ---
 
