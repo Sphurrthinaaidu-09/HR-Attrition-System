@@ -239,13 +239,33 @@ The model identified several significant attrition drivers:
 
 ## 📸 Application Screenshots
 
-<img width="1763" height="1325" alt="Screenshot_13-6-2026_161754_sphurrthi09-hr-attrition-system hf space" src="https://github.com/user-attachments/assets/4a4db3d6-d75c-4f7e-987d-82eab7e7f50e" />
+<details>
+<summary>🔍 1. Home Dashboard & Individual Employee Assessment (Click to Expand)</summary>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4a4db3d6-d75c-4f7e-987d-82eab7e7f50e" alt="Home Dashboard" width="85%" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+</p>
+</details>
 
-<img width="1763" height="844" alt="Screenshot_13-6-2026_161850_sphurrthi09-hr-attrition-system hf space" src="https://github.com/user-attachments/assets/33fd88af-97c8-4bc4-bde3-a4aef38c2ef9" />
+<details>
+<summary>📊 2. Individual Risk Prediction Report (Click to Expand)</summary>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/33fd88af-97c8-4bc4-bde3-a4aef38c2ef9" alt="Risk Prediction Report" width="85%" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+</p>
+</details>
 
-<img width="1763" height="844" alt="Screenshot_13-6-2026_181836_sphurrthi09-hr-attrition-system hf space" src="https://github.com/user-attachments/assets/61a3d780-8561-4984-91d6-4cf4a877179e" />
+<details>
+<summary>📁 3. Bulk Workforce Upload Terminal (Click to Expand)</summary>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/61a3d780-8561-4984-91d6-4cf4a877179e" alt="Bulk Workforce Upload" width="85%" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+</p>
+</details>
 
-<img width="1763" height="1661" alt="Screenshot_13-6-2026_161923_sphurrthi09-hr-attrition-system hf space" src="https://github.com/user-attachments/assets/ea0efd79-cca6-43a9-9a7c-f764ce938383" />
+<details>
+<summary>📈 4. Executive Analytics Dashboard & Risk Charts (Click to Expand)</summary>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ea0efd79-cca6-43a9-9a7c-f764ce938383" alt="Executive Dashboard Analytics" width="85%" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+</p>
+</details>
 
 ---
 
