@@ -242,8 +242,7 @@ The model identified several significant attrition drivers:
 <details>
 <summary>📂 1. Enterprise Data Ingestion Gateway (Click to Expand)</summary>
 <p align="center">
-  <img src="<img width="1763" height="844" alt="1" src="https://github.com/user-attachments/assets/8533fad2-fd17-47d0-921f-0356cf3cbcb6" />
-" alt="Data Ingestion Gateway" width="90%" style="border-radius: 8px;" />
+  <img src="<img width="1763" height="844" alt="2" src="https://github.com/user-attachments/assets/22689705-1e89-4251-866a-2cf6779b52ec" />
 </p>
 <p align="justify">
   <strong>Data Upload Center:</strong> Supports raw transactional HR spreadsheet uploads with automated schema verification, data shape recognition, and structural integrity checks before pipeline ingestion.
