@@ -239,8 +239,6 @@ The model identified several significant attrition drivers:
 
 ## 📸 Application Screenshots
 
-## 📸 Application Screenshots
-
 <details>
 <summary>📂 1. Enterprise Data Ingestion Gateway (Click to Expand)</summary>
 <p align="center">
