@@ -1,5 +1,9 @@
-flask
-numpy
-joblib
+streamlit
 pandas
-gunicorn
+numpy
+scikit-learn
+plotly
+matplotlib
+seaborn
+joblib
+openpyxl
