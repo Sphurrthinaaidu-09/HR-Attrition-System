@@ -2,7 +2,7 @@
 
 An end-to-end HR Analytics and Machine Learning application designed to identify employee attrition risks before they occur. The system transforms raw workforce data into actionable business intelligence, enabling HR teams to proactively improve employee retention and workforce stability.
 
-Live Demo: https://sphurrthi09-hr-attrition-system.hf.space
+Live Demo: https://hr-attrition-system-yrornkdej7yze62bvyonpx.streamlit.app/
 
 ---
 
@@ -240,30 +240,79 @@ The model identified several significant attrition drivers:
 ## 📸 Application Screenshots
 
 <details>
-<summary>🔍 1. Home Dashboard & Individual Employee Assessment (Click to Expand)</summary>
+<summary>📂 1. Enterprise Data Ingestion Gateway (Click to Expand)</summary>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4a4db3d6-d75c-4f7e-987d-82eab7e7f50e" alt="Home Dashboard" width="85%" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <img src="<img width="1763" height="844" alt="1" src="https://github.com/user-attachments/assets/8533fad2-fd17-47d0-921f-0356cf3cbcb6" />
+" alt="Data Ingestion Gateway" width="90%" style="border-radius: 8px;" />
+</p>
+<p align="justify">
+  <strong>Data Upload Center:</strong> Supports raw transactional HR spreadsheet uploads with automated schema verification, data shape recognition, and structural integrity checks before pipeline ingestion.
 </p>
 </details>
 
 <details>
-<summary>📊 2. Individual Risk Prediction Report (Click to Expand)</summary>
+<summary>📊 2. Workforce Risk Spread Distributions (Click to Expand)</summary>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/33fd88af-97c8-4bc4-bde3-a4aef38c2ef9" alt="Risk Prediction Report" width="85%" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <img src="<img width="1763" height="844" alt="2" src="https://github.com/user-attachments/assets/f2b8c016-44a9-4983-b372-8a7ae31ac6ef" />
+" alt="Workforce Risk Spread Distributions" width="90%" style="border-radius: 8px;" />
+</p>
+<p align="justify">
+  <strong>Workforce Analytics Dashboard:</strong> Provides aggregate statistical visualizers charting risk tiers across low, moderate, and high risk populations alongside continuous attrition risk curve density charts.
 </p>
 </details>
 
 <details>
-<summary>📁 3. Bulk Workforce Upload Terminal (Click to Expand)</summary>
+<summary>🎯 3. Statistical Structural Drivers Matrix (Click to Expand)</summary>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/61a3d780-8561-4984-91d6-4cf4a877179e" alt="Bulk Workforce Upload" width="85%" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <img src="<img width="1763" height="844" alt="3" src="https://github.com/user-attachments/assets/14748a8d-8a32-4213-ac1a-5e972255ae43" />
+" alt="Statistical Drivers Matrix" width="90%" style="border-radius: 8px;" />
+</p>
+<p align="justify">
+  <strong>Attrition Drivers Analysis:</strong> Exposes the underlying deterministic rules and logical weight bounds powering the risk evaluation engine (e.g., Overtime shifts, Job satisfaction limits, and tenure drop zones).
 </p>
 </details>
 
 <details>
-<summary>📈 4. Executive Analytics Dashboard & Risk Charts (Click to Expand)</summary>
+<summary>👥 4. High-Risk Watchlist Database Center (Click to Expand)</summary>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ea0efd79-cca6-43a9-9a7c-f764ce938383" alt="Executive Dashboard Analytics" width="85%" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <img src="<img width="1763" height="844" alt="4" src="https://github.com/user-attachments/assets/758233ab-db8c-4b40-925c-e8b96ad918eb" />
+" alt="High-Risk Watchlist Database Center" width="90%" style="border-radius: 8px;" />
+</p>
+<p align="justify">
+  <strong>Employee Explorer Matrix:</strong> A centralized granular tracking ledger highlighting the top priority high-risk retention targets filtered by risk percentage rankings and key organizational attributes.
+</p>
+</details>
+
+<details>
+<summary>💡 5. Strategic AI HR Interventions & Action Blueprints (Click to Expand)</summary>
+<p align="center">
+  <img src="<img width="1763" height="844" alt="5" src="https://github.com/user-attachments/assets/cf2aa074-df09-46a9-b424-d613718d8e12" />
+" alt="Strategic Interventions & Blueprints" width="90%" style="border-radius: 8px;" />
+</p>
+<p align="justify">
+  <strong>HR Action Plan Panel:</strong> Generates context-triggered mitigation strategies and programmatic remediation paths responding directly to core active threat vectors like intense overtime demands or critical engagement dips.
+</p>
+</details>
+
+<details>
+<summary>💾 6. Data Asset Report Generation Hub (Click to Expand)</summary>
+<p align="center">
+  <img src="<img width="1763" height="844" alt="6" src="https://github.com/user-attachments/assets/76b0d28e-5aec-4d74-8435-834832e4dcc9" />
+" alt="Data Asset Report Generation Hub" width="90%" style="border-radius: 8px;" />
+</p>
+<p align="justify">
+  <strong>Export Center Terminal:</strong> Compiles calculated risk classification tags, priority rankings, and demographic indicators into structured, clean data matrices down-streamable via CSV format.
+</p>
+</details>
+
+<details>
+<summary>🔮 7. Individual Employee Scenario Simulator Tracker (Click to Expand)</summary>
+<p align="center">
+  <img src="<img width="1763" height="844" alt="7" src="https://github.com/user-attachments/assets/b7907e6f-d74c-4fae-a78c-8c33c287ffba" />
+" alt="Scenario Simulator Tracker" width="90%" style="border-radius: 8px;" />
+</p>
+<p align="justify">
+  <strong>What-If Scenario Simulator:</strong> Dynamic parameter interactive workbench with gauge metrics mapping out localized probability changes in real-time when testing alterations to age bands, overtime options, and balance levels.
 </p>
 </details>
 
