@@ -239,6 +239,8 @@ The model identified several significant attrition drivers:
 
 ## 📸 Application Screenshots
 
+## 📸 Application Screenshots
+
 <details>
 <summary>📂 1. Enterprise Data Ingestion Gateway (Click to Expand)</summary>
 <p align="center">
@@ -250,10 +252,19 @@ The model identified several significant attrition drivers:
 </details>
 
 <details>
-<summary>📊 2. Workforce Risk Spread Distributions (Click to Expand)</summary>
+<summary>📊 2. Employee Attrition Risk Prediction & Workforce Analytics (Click to Expand)</summary>
 <p align="center">
-  <img src="<img width="1763" height="844" alt="2" src="https://github.com/user-attachments/assets/f2b8c016-44a9-4983-b372-8a7ae31ac6ef" />
-" alt="Workforce Risk Spread Distributions" width="90%" style="border-radius: 8px;" />
+  <img src="https://github.com/user-attachments/assets/68acf36b-8c50-4384-84b3-cec060a1b6c9" width="90%" alt="Employee Attrition Risk Prediction & Workforce Analytics" style="border-radius: 8px;" />
+</p>
+<p align="justify">
+  <strong>Executive Dashboard:</strong> Serves as the central command center, aggregating high-level organizational matrices like total headcount, active high-risk watchlists, and overtime utilization metrics alongside automated core LLM insights.
+</p>
+</details>
+
+<details>
+<summary>📊 3. Workforce Risk Spread Distributions (Click to Expand)</summary>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1de1d041-12c2-463b-9cb4-d6e060193ab7" width="90%" alt="Workforce Risk Spread Distributions" style="border-radius: 8px;" />
 </p>
 <p align="justify">
   <strong>Workforce Analytics Dashboard:</strong> Provides aggregate statistical visualizers charting risk tiers across low, moderate, and high risk populations alongside continuous attrition risk curve density charts.
@@ -261,10 +272,9 @@ The model identified several significant attrition drivers:
 </details>
 
 <details>
-<summary>🎯 3. Statistical Structural Drivers Matrix (Click to Expand)</summary>
+<summary>🎯 4. Statistical Structural Drivers Matrix (Click to Expand)</summary>
 <p align="center">
-  <img src="<img width="1763" height="844" alt="3" src="https://github.com/user-attachments/assets/14748a8d-8a32-4213-ac1a-5e972255ae43" />
-" alt="Statistical Drivers Matrix" width="90%" style="border-radius: 8px;" />
+  <img src="https://github.com/user-attachments/assets/87228fe9-82ef-44a8-9059-b4397d31cd37" width="90%" alt="Statistical Structural Drivers Matrix" style="border-radius: 8px;" />
 </p>
 <p align="justify">
   <strong>Attrition Drivers Analysis:</strong> Exposes the underlying deterministic rules and logical weight bounds powering the risk evaluation engine (e.g., Overtime shifts, Job satisfaction limits, and tenure drop zones).
@@ -272,10 +282,9 @@ The model identified several significant attrition drivers:
 </details>
 
 <details>
-<summary>👥 4. High-Risk Watchlist Database Center (Click to Expand)</summary>
+<summary>👥 5. High-Risk Watchlist Database Center (Click to Expand)</summary>
 <p align="center">
-  <img src="<img width="1763" height="844" alt="4" src="https://github.com/user-attachments/assets/758233ab-db8c-4b40-925c-e8b96ad918eb" />
-" alt="High-Risk Watchlist Database Center" width="90%" style="border-radius: 8px;" />
+  <img src="https://github.com/user-attachments/assets/4b877e12-22cc-44bc-956f-d0d24f063a70" width="90%" alt="High-Risk Watchlist Database Center" style="border-radius: 8px;" />
 </p>
 <p align="justify">
   <strong>Employee Explorer Matrix:</strong> A centralized granular tracking ledger highlighting the top priority high-risk retention targets filtered by risk percentage rankings and key organizational attributes.
@@ -283,10 +292,9 @@ The model identified several significant attrition drivers:
 </details>
 
 <details>
-<summary>💡 5. Strategic AI HR Interventions & Action Blueprints (Click to Expand)</summary>
+<summary>💡 6. Strategic AI HR Interventions & Action Blueprints (Click to Expand)</summary>
 <p align="center">
-  <img src="<img width="1763" height="844" alt="5" src="https://github.com/user-attachments/assets/cf2aa074-df09-46a9-b424-d613718d8e12" />
-" alt="Strategic Interventions & Blueprints" width="90%" style="border-radius: 8px;" />
+  <img src="https://github.com/user-attachments/assets/1ab1bfe7-ae67-420c-bc3a-dbd603531d42" width="90%" alt="Strategic AI HR Interventions & Action Blueprints" style="border-radius: 8px;" />
 </p>
 <p align="justify">
   <strong>HR Action Plan Panel:</strong> Generates context-triggered mitigation strategies and programmatic remediation paths responding directly to core active threat vectors like intense overtime demands or critical engagement dips.
@@ -294,10 +302,9 @@ The model identified several significant attrition drivers:
 </details>
 
 <details>
-<summary>💾 6. Data Asset Report Generation Hub (Click to Expand)</summary>
+<summary>💾 7. Data Asset Report Generation Hub (Click to Expand)</summary>
 <p align="center">
-  <img src="<img width="1763" height="844" alt="6" src="https://github.com/user-attachments/assets/76b0d28e-5aec-4d74-8435-834832e4dcc9" />
-" alt="Data Asset Report Generation Hub" width="90%" style="border-radius: 8px;" />
+  <img src="https://github.com/user-attachments/assets/e0671ce8-73cb-41c5-a17f-7687da5e7df7" width="90%" alt="Data Asset Report Generation Hub" style="border-radius: 8px;" />
 </p>
 <p align="justify">
   <strong>Export Center Terminal:</strong> Compiles calculated risk classification tags, priority rankings, and demographic indicators into structured, clean data matrices down-streamable via CSV format.
@@ -305,10 +312,9 @@ The model identified several significant attrition drivers:
 </details>
 
 <details>
-<summary>🔮 7. Individual Employee Scenario Simulator Tracker (Click to Expand)</summary>
+<summary>🔮 8. Individual Employee Scenario Simulator Tracker (Click to Expand)</summary>
 <p align="center">
-  <img src="<img width="1763" height="844" alt="7" src="https://github.com/user-attachments/assets/b7907e6f-d74c-4fae-a78c-8c33c287ffba" />
-" alt="Scenario Simulator Tracker" width="90%" style="border-radius: 8px;" />
+  <img src="https://github.com/user-attachments/assets/843b256e-81e5-49b9-8fef-914ef3fcf00f" width="90%" alt="Individual Employee Scenario Simulator Tracker" style="border-radius: 8px;" />
 </p>
 <p align="justify">
   <strong>What-If Scenario Simulator:</strong> Dynamic parameter interactive workbench with gauge metrics mapping out localized probability changes in real-time when testing alterations to age bands, overtime options, and balance levels.
