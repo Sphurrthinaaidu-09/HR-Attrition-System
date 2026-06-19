@@ -240,7 +240,7 @@ The model identified several significant attrition drivers:
 ## 📸 Application Screenshots
 
 <details>
-<summary>📂 1. Enterprise Data Ingestion Gateway (Click to Expand)</summary>
+<summary> 1. Enterprise Data Ingestion Gateway (Click to Expand)</summary>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/22689705-1e89-4251-866a-2cf6779b52ec" width="90%" alt="Enterprise Data Ingestion Gateway" style="border-radius: 8px;" />
 </p>
@@ -250,7 +250,7 @@ The model identified several significant attrition drivers:
 </details>
 
 <details>
-<summary>📊 2. Employee Attrition Risk Prediction & Workforce Analytics (Click to Expand)</summary>
+<summary> 2. Employee Attrition Risk Prediction & Workforce Analytics (Click to Expand)</summary>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/68acf36b-8c50-4384-84b3-cec060a1b6c9" width="90%" alt="Employee Attrition Risk Prediction & Workforce Analytics" style="border-radius: 8px;" />
 </p>
@@ -260,7 +260,7 @@ The model identified several significant attrition drivers:
 </details>
 
 <details>
-<summary>📊 3. Workforce Risk Spread Distributions (Click to Expand)</summary>
+<summary> 3. Workforce Risk Spread Distributions (Click to Expand)</summary>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1de1d041-12c2-463b-9cb4-d6e060193ab7" width="90%" alt="Workforce Risk Spread Distributions" style="border-radius: 8px;" />
 </p>
@@ -270,7 +270,7 @@ The model identified several significant attrition drivers:
 </details>
 
 <details>
-<summary>🎯 4. Statistical Structural Drivers Matrix (Click to Expand)</summary>
+<summary> 4. Statistical Structural Drivers Matrix (Click to Expand)</summary>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/87228fe9-82ef-44a8-9059-b4397d31cd37" width="90%" alt="Statistical Structural Drivers Matrix" style="border-radius: 8px;" />
 </p>
@@ -280,7 +280,7 @@ The model identified several significant attrition drivers:
 </details>
 
 <details>
-<summary>👥 5. High-Risk Watchlist Database Center (Click to Expand)</summary>
+<summary> 5. High-Risk Watchlist Database Center (Click to Expand)</summary>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4b877e12-22cc-44bc-956f-d0d24f063a70" width="90%" alt="High-Risk Watchlist Database Center" style="border-radius: 8px;" />
 </p>
@@ -290,7 +290,7 @@ The model identified several significant attrition drivers:
 </details>
 
 <details>
-<summary>💡 6. Strategic AI HR Interventions & Action Blueprints (Click to Expand)</summary>
+<summary> 6. Strategic AI HR Interventions & Action Blueprints (Click to Expand)</summary>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1ab1bfe7-ae67-420c-bc3a-dbd603531d42" width="90%" alt="Strategic AI HR Interventions & Action Blueprints" style="border-radius: 8px;" />
 </p>
@@ -300,7 +300,7 @@ The model identified several significant attrition drivers:
 </details>
 
 <details>
-<summary>💾 7. Data Asset Report Generation Hub (Click to Expand)</summary>
+<summary> 7. Data Asset Report Generation Hub (Click to Expand)</summary>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e0671ce8-73cb-41c5-a17f-7687da5e7df7" width="90%" alt="Data Asset Report Generation Hub" style="border-radius: 8px;" />
 </p>
@@ -310,7 +310,7 @@ The model identified several significant attrition drivers:
 </details>
 
 <details>
-<summary>🔮 8. Individual Employee Scenario Simulator Tracker (Click to Expand)</summary>
+<summary> 8. Individual Employee Scenario Simulator Tracker (Click to Expand)</summary>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/843b256e-81e5-49b9-8fef-914ef3fcf00f" width="90%" alt="Individual Employee Scenario Simulator Tracker" style="border-radius: 8px;" />
 </p>
